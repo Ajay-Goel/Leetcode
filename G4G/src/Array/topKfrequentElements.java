@@ -20,12 +20,19 @@ public class topKfrequentElements {
             if(pq.size()>k)
                 pq.poll();
         }
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(3);
+        int a = ts.last();
+        ts.pollLast();
+        System.out.println(a);
+//        while(!pq.isEmpty()){
+//            System.out.println(pq.poll().getKey());
+//
+//            List<Integer> ls = new ArrayList<>();
+//            ls.add(2);
+//
+//        }
 
-        while(!pq.isEmpty()){
-            System.out.println(pq.poll().getKey());
-            List<Integer> ls = new ArrayList<>();
-            ls.add(2);
 
-        }
     }
 }
