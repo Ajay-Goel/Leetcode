@@ -1,18 +1,19 @@
 package Test;
 
 import java.math.BigInteger;
+import java.security.Key;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Test {
-    public static void main(String [] args){
-        int [][] res = new int[2][2];
-        res[0][1]=256;
-        res[1][1]=1;
-        for(int i=0;i<res.length;i++){
-            for(int j=0;j<res[0].length;j++){
-                res[i][j]^=256;
-                res[i][j]^=256;
+    public static void main(String[] args) {
+        int[][] res = new int[2][2];
+        res[0][1] = 256;
+        res[1][1] = 1;
+        for (int i = 0; i < res.length; i++) {
+            for (int j = 0; j < res[0].length; j++) {
+                res[i][j] ^= 256;
+                res[i][j] ^= 256;
             }
         }
 
@@ -30,8 +31,8 @@ public class Test {
 //                (a,b) -> a.getValue()==b.getValue() ? b.getKey().compareTo(a.getKey()) : a.getValue()-b.getValue()
 //        );
 //
-        LinkedHashMap<Integer,List<Integer>> lhm = new LinkedHashMap<>();
-        for(List<Integer> ls2: lhm.values()){
+        LinkedHashMap<Integer, List<Integer>> lhm = new LinkedHashMap<>();
+        for (List<Integer> ls2 : lhm.values()) {
 
         }
 //        lhm.put(1,new ArrayList<Integer>(){{add(2);}});
@@ -41,56 +42,53 @@ public class Test {
 //        ls.add(0,1);
 //        //System.out.println(lhm.);
 //
-//        Map<Integer, List<Integer>> tweetMap = new HashMap<Integer, List<Integer>>();
-//
-//        PriorityQueue<int[]> pq = new PriorityQueue<int[]>(new Comparator<int[]>() {
-//            public int compare(int[] it1, int[] it2) {
-//                return tweetMap.get(it2[0]).get(it2[1]) - tweetMap.get(it1[0]).get(it1[1]);
-//            }
-//        });
+        Map<Integer, List<Integer>> tweetMap = new HashMap<Integer, List<Integer>>();
+        HashMap<Integer,Integer> hm = new HashMap<>();
+        HashMap<String,Integer> hm2 = new HashMap<>();
+        hm2.put("ded",2);
 
-        //pq.add(new int[] { 1, ls.size() - 1 });
-//        ls.add(1);
-//        int index = ls.indexOf(1);
-//
-//        String w ="wefwe";
-//        w.trim();
-//        int num =1;
-//        if(Character.isDigit('2')){
-//            char a ='2';
-//        }
-//        Arrays.sort(w.toCharArray());
-//        String sb = w.toString();
-//        System.out.println(w);
-        List<Integer> ls2 = new ArrayList<>();
-//        ls2.add("word");
-//        if(ls2.contains("*wo")){
-//            System.out.println("Yes");
-//        }
+        HashSet<Integer> hs = new HashSet<>();
+        hs.add(21);
 
-        //int [] ls4 = ls2;
+        Random rand = new Random();
+        int a = rand.nextInt(2);
+        System.out.println(a);
 
-        char[] arr = new char[2];
-      // arr[0]='a';
-        //arr[1]=1;
-//        arr[2]=2;
-        StringBuilder sb = new StringBuilder("sdcdsc");
+        PriorityQueue<Map.Entry<Integer,Integer>> pq33 = new PriorityQueue<>(
+                (m1,m2)->m2.getValue()-m1.getValue());
 
-//        sb.setCharAt(sb.length(),sb.charAt(0));
-//        sb.deleteCharAt(0);
-//        String a ="vsfv";
-        int f= 9933;
-        char [] ch= Integer.toString(f).toCharArray();
-        for(int i=0;i<ch.length;i++){
-            if(ch[i]=='6'){
-                ch[i]='9';
-                break;
+
+        PriorityQueue<int[]> pq = new PriorityQueue<int[]>(new Comparator<int[]>() {
+            public int compare(int[] it1, int[] it2) {
+                return tweetMap.get(it2[0]).get(it2[1]) - tweetMap.get(it1[0]).get(it1[1]);
             }
+        });
+
+
+    }
+
+
+    public static String addStrings(String num1, String num2) {
+        int index1 = num1.length()-1;
+        int index2 = num2.length()-1;
+        int carry = 0;
+        StringBuilder sb = new StringBuilder();
+        while(index1>=0 || index2>=0){
+            int sum=carry;
+            if(index1>=0){
+                sum+=num1.charAt(index1--)-'0';
+            }
+            if(index2>=0){
+                sum+=num2.charAt(index2--)-'0';
+            }
+            carry = sum/10;
+            sum=sum%10;
+            sb.append(sum);
         }
-        int ans = Integer.parseInt(ch.toString());
-        String a ="123";
-        String b ="456";
-        //BigInteger c = Math.BigInteger.valueOf(Long.parseLong(a)) BigInteger.valueOf(Long.parseLong(b));
-       // String cc= String.valueOf(c);
+
+        if(carry!=0){
+            sb.append(carry);
+        }
+        return sb.reverse().toString();
     }
 }
