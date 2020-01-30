@@ -37,6 +37,7 @@ public class Test {
         }
 //        lhm.put(1,new ArrayList<Integer>(){{add(2);}});
         List<Integer> ls = new ArrayList<>();
+
 //        ls.add(2);
 //
 //        ls.add(0,1);
@@ -49,6 +50,14 @@ public class Test {
 
         HashSet<Integer> hs = new HashSet<>();
         hs.add(21);
+        String s ="BSAB";
+        StringBuilder sb = new StringBuilder();
+        sb.append("ABSABS");
+        sb.indexOf(s);
+
+        int num1 = 1;
+        int num2 = 4;
+
 
         Random rand = new Random();
         int a = rand.nextInt(2);
@@ -63,6 +72,9 @@ public class Test {
                 return tweetMap.get(it2[0]).get(it2[1]) - tweetMap.get(it1[0]).get(it1[1]);
             }
         });
+
+        String order = "hlabcdefgijkmnopqrstuvwxyz";
+
 
 
     }
