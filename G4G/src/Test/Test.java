@@ -1,9 +1,7 @@
 package Test;
 
-import java.math.BigInteger;
-import java.security.Key;
+import java.lang.reflect.Array;
 import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Test {
     public static void main(String[] args) {
@@ -42,7 +40,19 @@ public class Test {
 //
 //        ls.add(0,1);
 //        //System.out.println(lhm.);
+
+
 //
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(2);
+
+        System.out.println("******");
+        System.out.println(790/26);
+        System.out.println(790%26);
+        char s = '4';
+        StringBuilder sb = new StringBuilder();
+
+        //System.out.println(Character.s);
         Map<Integer, List<Integer>> tweetMap = new HashMap<Integer, List<Integer>>();
         HashMap<Integer,Integer> hm = new HashMap<>();
         HashMap<String,Integer> hm2 = new HashMap<>();
@@ -50,10 +60,11 @@ public class Test {
 
         HashSet<Integer> hs = new HashSet<>();
         hs.add(21);
-        String s ="BSAB";
-        StringBuilder sb = new StringBuilder();
+        String s33 ="BSAB";
+        
+        //StringBuilder sb = new StringBuilder();
         sb.append("ABSABS");
-        sb.indexOf(s);
+      //  sb.indexOf(s);
 
         int num1 = 1;
         int num2 = 4;
@@ -74,6 +85,54 @@ public class Test {
         });
 
         String order = "hlabcdefgijkmnopqrstuvwxyz";
+
+        int[] arr = new int[1];
+        arr[0]=1;
+        System.out.println(Arrays.toString(arr));
+        StringBuilder sb33 = new StringBuilder();
+        String eer = sb33.toString().toUpperCase();
+        System.out.println(Arrays.toString(ls.toArray()));
+        int ch = 121;
+        String chs = String.valueOf(121);
+
+
+        List<List<String>> ls44 = new ArrayList<List<String>>();
+        HashMap<String,List<String>> hm44 = new HashMap<>();
+        hm44.putIfAbsent("d",new ArrayList<String>());
+        hm44.get("d").add("dd");
+
+//        hm44.putAll((Map<? extends String, ? extends List<String>>) hm.values());
+        char [] rr= new char []{'d','e'};
+        String arre = Arrays.toString(rr);
+        System.out.println(arre +"kdjfv");
+        double  r=  2.33;
+        if(r==(int)r){
+           System.out.println("yes");
+        }
+        System.out.println((37296.0*37296.0)+54001*54001);
+
+        int three_sum=0;
+        int common =0;
+        for(int i=100;i<=999;i++){
+            if(i%3==0 && i%4==0){
+                common++;
+            }
+            else if(i%3==0 || i%4==0)
+                three_sum++;
+        }
+        System.out.println(three_sum);
+        System.out.println(common);
+        String[] res444 = {"a","ab","ba","a"};
+        String word = "ba";
+
+        for(int i=0;i<word.length();i++){
+            System.out.println(word.substring(i-1));
+            //for(int j=0;j<word.length();j++){
+            //    System.out.println(word.substring(i,i+j));
+            //}
+        }
+        Arrays.sort(res444);
+        System.out.println(Arrays.toString(res444));
 
 
 
