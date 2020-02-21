@@ -7,31 +7,22 @@ import java.util.List;
 public class summaryRanges {
     public List<String> summaryRanges(int[] nums) {
         List<String> ls = new ArrayList<>();
-        if(nums.length==0) return ls;
-        int prev = nums[0];
-        StringBuilder sb = new StringBuilder();
-        sb.append(prev);
         for(int i=0;i<nums.length;i++){
-            if(prev+1==nums[i]){
-                prev++;
+            int a = nums[i];
+            while(i+1<nums.length && (nums[i+1]-nums[i]==1)){
+                i++;
             }
-            else{
-                if(sb.charAt(sb.length()-1)!=(char)prev){
-                    sb.append("-");
-                    sb.append(">");
-                    sb.append(prev);
-                }
-                ls.add(sb.toString());
-                sb=new StringBuilder();
-                prev=nums[i];
-                sb.append(prev);
+            if(a!=nums[i]){
+                ls.add(a+"->"+nums[i]);
+            } else {
+                ls.add(a+"");
             }
         }
         return ls;
     }
     public static void main(String args[]){
         summaryRanges sr = new summaryRanges();
-        int[] arr = {0,1,2,4,5,7};
+        int[] arr = {0,2,3,4,6,8,9};
         List<String>ls = sr.summaryRanges(arr);
         System.out.println(ls);
     }
