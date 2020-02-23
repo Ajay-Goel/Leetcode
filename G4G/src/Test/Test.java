@@ -26,8 +26,25 @@ public class Test {
         hs.add('a');
         List<Character> cd = new ArrayList<Character>();
         cd.add('a');
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        HashMap<Integer,Integer>hm2 = new HashMap<>();
+        int test = 1;
+        pq.add(test);
+        hm2.put(1,test);
+
+        test = 4;
 
 
+        System.out.println(test);
+        LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
+        lhs.add(1);
+        lhs.add(2);
+        boolean am = lhs.iterator().hasNext();
+        System.out.println(am);
+        Random rand = new Random();
+        int[] aaa= {1};
+        int[] bbb = Arrays.copyOf(aaa,aaa.length);
+        
     }
 
 }
