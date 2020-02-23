@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be006c3-25f2-4dc0-8335-3978f3927446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/courseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/divisibleby60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/AccountStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/BookFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/BookItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/BookLending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/BookReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/BookStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Fine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Rack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/ReservationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/LibraryManagementSystem/de.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/G4G/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/G4G/Test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/courseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/courseSchedule.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,8 +47,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Array/courseSchedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="660">
+              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -356,7 +338,7 @@
       <workItem from="1580091268203" duration="2978000" />
       <workItem from="1580239738618" duration="2643000" />
       <workItem from="1580269341158" duration="12118000" />
-      <workItem from="1580614364225" duration="42105000" />
+      <workItem from="1580614364225" duration="43201000" />
     </task>
     <task id="LOCAL-00001" summary="SDE">
       <created>1581996335869</created>
@@ -401,13 +383,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154288000" />
+    <option name="totallyTimeSpent" value="155384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1156,8 +1138,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/courseSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="660">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
