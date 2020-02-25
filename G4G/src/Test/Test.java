@@ -44,7 +44,8 @@ public class Test {
         Random rand = new Random();
         int[] aaa= {1};
         int[] bbb = Arrays.copyOf(aaa,aaa.length);
-        
+
+
     }
 
 }
