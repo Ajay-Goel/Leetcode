@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be006c3-25f2-4dc0-8335-3978f3927446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/HelloCodiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Solution/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Solution/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/missingElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/G4G/DesignDataStructures/HashMap/MyMap$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/G4G/DesignDataStructures/HashMap/MyMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/G4G/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/G4G/Test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/missingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/missingElement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Array/missingElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+            <state relative-caret-position="323">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding>
                 <element signature="e#83#84#0" expanded="true" />
                 <element signature="e#131#132#0" expanded="true" />
@@ -275,7 +268,7 @@
       <workItem from="1580614364225" duration="47799000" />
       <workItem from="1582580244113" duration="6968000" />
       <workItem from="1582682583503" duration="533000" />
-      <workItem from="1582740398321" duration="2619000" />
+      <workItem from="1582740398321" duration="3134000" />
     </task>
     <task id="LOCAL-00001" summary="SDE">
       <created>1581996335869</created>
@@ -320,7 +313,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170102000" />
+    <option name="totallyTimeSpent" value="170617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -996,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/missingElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        <state relative-caret-position="323">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding>
             <element signature="e#83#84#0" expanded="true" />
             <element signature="e#131#132#0" expanded="true" />

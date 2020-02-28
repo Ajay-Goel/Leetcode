@@ -24,11 +24,11 @@ public class missingElement {
 
         // kth missing number is larger than nums[idx - 1]
         // and smaller than nums[idx]
-        return nums[left - 1] + k ;//- missing(left - 1, nums);
+        return nums[left - 1] + k - missing(left - 1, nums);
     }
     public static void main(String[] args){
         missingElement me = new missingElement();
-        int a = me.missingElement(new int[]{4,7,9,10},3);
+        int a = me.missingElement(new int[]{4,7,9,10},12);
         System.out.println(a);
     }
 }
