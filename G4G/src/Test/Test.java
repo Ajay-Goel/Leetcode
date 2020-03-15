@@ -1,5 +1,7 @@
 package Test;
 
+import Trie.WordDictionary;
+
 import java.lang.reflect.Array;
 import java.util.*;
 
@@ -63,6 +65,15 @@ public class Test {
         ls2.add(1);
         ls2.add(1);
         TreeMap<Integer,Integer> tm = new TreeMap<>();
+        StringBuilder sb = new StringBuilder();
+        sb.append(1);
+        HashSet<String> hs = new HashSet<>();
+        sb.setLength(0);
+        String data = "ABCD";
+        String[] separate = data.split(",");
+
+        List<Integer> ls3 = new ArrayList(Arrays.asList(separate));
+
 
     }
 

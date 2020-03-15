@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SnakeAndLadderBoard {
+public class        SnakeAndLadderBoard {
     private int size;
     private List<Snake> snakes; // The board also contains some snakes and ladders.
     private List<Ladder> ladders;
