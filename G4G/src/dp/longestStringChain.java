@@ -7,7 +7,10 @@ import java.util.Map;
 public class longestStringChain {
     public int longestStrChain(String[] words) {
         Map<String, Integer> dp = new HashMap<>();
-        Arrays.sort(words, (a, b)->a.length() - b.length());
+        //Arrays.sort(words, (a, b)->a.length() - b.length());
+        Arrays.sort(words,(a,b)->{
+            return a.compareTo(b);
+        });
         int res = 0;
         for (String word : words) {
             int best = 0;
