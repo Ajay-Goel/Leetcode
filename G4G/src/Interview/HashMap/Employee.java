@@ -1,9 +1,13 @@
 package Interview.HashMap;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class Employee {
-    String name;
+    private String name;
+    static int value =10;
+    static List<Integer> ls = new ArrayList<>();
 
     public Employee(String name) {
         this.name = name;
@@ -13,7 +17,7 @@ public class Employee {
         return name;
     }
 
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
@@ -45,5 +49,14 @@ public class Employee {
         hm.put(emp2,2000);
         hm.put(emp3,3000);
         System.out.println(hm.size());
+        emp1.value = 20;
+        System.out.println(emp1.value);
+        System.out.println(emp2.value);
+        emp1.ls.add(2);
+        emp1.ls.add(3);
+        System.out.println(emp1.ls);
+        emp2.ls.add(4);
+        System.out.println(emp1.ls);
+        System.out.println(emp2 .ls);
     }
 }
