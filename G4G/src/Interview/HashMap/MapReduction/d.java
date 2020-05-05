@@ -47,55 +47,8 @@ class Solution {
             System.out.println(mentry.getKey()+"::"+mentry.getValue());
         }
 
-
-
-
-
     }
 }
-
-/*
-//Hello,World, Hello , World
-//Hello,World, Hello , World, Hello
-
-Hello, 1
-World, 1
-Hello, 1
-World, 1
-
-Hello, 1
-World, 1
-Hello, 1
-World, 1
-Hello, 1
-
-
-Hello {1, 1, 1, 1, 1}
-World {1, 1, 1, 1}
-
-Hello - 5
-World - 4
-
-
-List<String>. // lines of text
-
-
-  Mapper
-  String []  words = line.split(",")
-
-1. Hello -> 1,1
-                              int sum
-                            1 reducer for(:)
-                              sum+=1;
-2. World, 1,1
-
-Final Op:  (K, V)
-Hello - 2
-World - 2
-
-
-
-*/
 
 
 class Pair<K, V> {
@@ -151,7 +104,6 @@ class MapReduceImpl extends MapReduce<String, String, Integer, Map.Entry<String,
 
         int sum =0;
         //Map.Entry<String, Integer> result = new Map.Entry<>();
-
 
         //for(List<Integer> mentry : entry.getValue()){
         List<Integer> ls = entry.getValue();

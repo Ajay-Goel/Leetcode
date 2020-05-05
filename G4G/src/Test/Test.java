@@ -103,7 +103,7 @@ public class Test {
         ts.add("x");
 
         ts.add("1");
-
+        Math.pow(2,3);
     }
     private boolean less(Comparable i, Comparable j){
         return i.compareTo(j)<0;
