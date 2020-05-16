@@ -2,6 +2,8 @@ package Array.GoldMan;
 
 
 public class MaxCommonality {
+
+
     private static int findMaxCommonality(String str) {
         int[] count = new int[26];
         for(char ch : str.toCharArray()) {

@@ -104,6 +104,12 @@ public class Test {
 
         ts.add("1");
         Math.pow(2,3);
+        HashMap <Integer,Integer> hm = new HashMap<>();
+        hm.put(null,1);
+        Hashtable <Integer,Integer> ht = new Hashtable<>();
+        ht.put(null,1);
+
+
     }
     private boolean less(Comparable i, Comparable j){
         return i.compareTo(j)<0;

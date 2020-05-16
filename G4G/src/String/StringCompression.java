@@ -43,3 +43,4 @@ public class StringCompression {
         System.out.println(a);
     }
 }
+
