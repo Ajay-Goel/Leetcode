@@ -108,6 +108,11 @@ public class Test {
         hm.put(null,1);
         Hashtable <Integer,Integer> ht = new Hashtable<>();
         ht.put(null,1);
+        Object obj = new String("Ajay");
+        if(obj instanceof Integer){
+
+        }
+
 
 
     }
