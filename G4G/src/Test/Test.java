@@ -94,24 +94,7 @@ public class Test {
 //        TreeSet<Integer> ts = new TreeSet<>();
 //
         String res = "/*Test program */";
-        System.out.println(res.indexOf("/*"));
-        char [] n = new char[2];
-        n[0]=1;
-        n[1]=2;
-        TreeSet<String> ts = new TreeSet<>();
-        ts.add("xyz");
-        ts.add("x");
 
-        ts.add("1");
-        Math.pow(2,3);
-        HashMap <Integer,Integer> hm = new HashMap<>();
-        hm.put(null,1);
-        Hashtable <Integer,Integer> ht = new Hashtable<>();
-        ht.put(null,1);
-        Object obj = new String("Ajay");
-        if(obj instanceof Integer){
-
-        }
 
 
 
@@ -120,4 +103,37 @@ public class Test {
         return i.compareTo(j)<0;
 
     }
+
+
+        public boolean canPermutePalindrome(String s) {
+            //int[] arr = new int[26];
+            int ln = s.length();
+            //s = s.toLowerCase();
+            if(ln<=1)
+                return true;
+
+            HashMap<Character,Integer> hm = new HashMap<>();
+
+            boolean single=false;
+            for(char a:s.toCharArray()){
+                if(Character.isLetter(a))
+
+                    hm.put(a,hm.getOrDefault(a,0)+1);
+            }
+
+        for(Character key: hm.keySet()){
+            int val = hm.get(key);
+            if(val%2==1){
+                if(single)
+                    return false;
+                else{
+                    single=true;
+                }
+            }
+        }
+        if(ln%2==0 && single)
+                return false;
+        return true;
+    }
+
 }
