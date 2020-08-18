@@ -19,26 +19,46 @@ class minSum {
     }
 
 
+
     int getCheapestCost(Node rootNode) {
         // your code goes here
         if(rootNode==null)
             return 0;
-        if(rootNode.children==null)
-            return 0;
-        Node[] children = rootNode.children;
-        int min = Integer.MAX_VALUE;
-        for(Node node : children){
-            min = Math.min(min,helper(node));
-        }
-        return min+rootNode.cost;
+        return helper(rootNode);
     }
 
-    int helper(Node node){
-        if(node==null)
+    int helper(Node root){
+        if(root==null)
             return 0;
-        int s1 = getCheapestCost(node);
-        return s1+node.cost;
+        if(root.children==null)
+            return root.cost;
+        int min=Integer.MAX_VALUE;
+        for(Node node : root.children){
+            min = Math.min(min,helper(node));
+        }
+        return min+root.cost;
     }
+
+//    int getCheapestCost(Node rootNode) {
+//        // your code goes here
+//        if(rootNode==null)
+//            return 0;
+//        if(rootNode.children==null)
+//            return 0;
+//        Node[] children = rootNode.children;
+//        int min = Integer.MAX_VALUE;
+//        for(Node node : children){
+//            min = Math.min(min,helper(node));
+//        }
+//        return min+rootNode.cost;
+//    }
+//
+//    int helper(Node node){
+//        if(node==null)
+//            return 0;
+//        int s1 = getCheapestCost(node);
+//        return s1+node.cost;
+//    }
 
 
     /*********************************************

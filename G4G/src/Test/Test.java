@@ -5,7 +5,7 @@ import Trie.WordDictionary;
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class Test {
+public class Test extends TestParent {
     public static void main(String[] args) {
 //        int b = 22;
 //        String a = String.valueOf(b);
@@ -93,47 +93,18 @@ public class Test {
 //        chars[0]= Character.highSurrogate(count);
 //        TreeSet<Integer> ts = new TreeSet<>();
 //
-        String res = "/*Test program */";
-
-
-
-
-    }
-    private boolean less(Comparable i, Comparable j){
-        return i.compareTo(j)<0;
-
+        Test.print();
+        TestParent.print();
+        Test test = new Test();
+        test.printParent();
+        test.printParent();
     }
 
-
-        public boolean canPermutePalindrome(String s) {
-            //int[] arr = new int[26];
-            int ln = s.length();
-            //s = s.toLowerCase();
-            if(ln<=1)
-                return true;
-
-            HashMap<Character,Integer> hm = new HashMap<>();
-
-            boolean single=false;
-            for(char a:s.toCharArray()){
-                if(Character.isLetter(a))
-
-                    hm.put(a,hm.getOrDefault(a,0)+1);
-            }
-
-        for(Character key: hm.keySet()){
-            int val = hm.get(key);
-            if(val%2==1){
-                if(single)
-                    return false;
-                else{
-                    single=true;
-                }
-            }
-        }
-        if(ln%2==0 && single)
-                return false;
-        return true;
+    static void print(){
+        System.out.println("Here");
     }
 
+    private void printParent(){
+        System.out.println("Here in print child");
+    }
 }
