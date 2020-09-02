@@ -4,6 +4,7 @@ import Trie.WordDictionary;
 
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.stream.IntStream;
 
 public class Test extends TestParent {
     public static void main(String[] args) {
@@ -98,6 +99,11 @@ public class Test extends TestParent {
         Test test = new Test();
         test.printParent();
         test.printParent();
+        int[] array = { 10, 20, 30 };
+        IntStream stream = Arrays.stream(array);
+        // ... Call anyMatch on the IntStream.
+        boolean result = stream.anyMatch(number -> number >= 25);
+        System.out.println(result);
     }
 
     static void print(){

@@ -1,7 +1,10 @@
 package SystemDesign.JukeBox;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class JukeBox {
     List<User> users;
@@ -20,6 +23,17 @@ public class JukeBox {
         jb.users.add(user1);
         jb.users.add(user2);
         cp.getListCD().add(cd1);
+        ///////JAVA 8 Predicate use
+        Predicate<User> p = new Predicate<User>(){
+            @Override
+            public boolean test(User check){
+                return check.getName().startsWith("Aj");
+            }
+        };
+
+        jb.users.stream()
+                .filter(p)
+                .forEach(System.out::println);
     }
 
     private void addSongs(User user1, User user2, CD cd1) {
