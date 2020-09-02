@@ -62,7 +62,8 @@ public class AlienDictionary {
         return sb.toString();
     }
     public static void main(String[]args){
-        String [] arr = {"wrt", "wrf", "er", "ett", "rftt"};
+        //String [] arr = {"wrt", "wrf", "er", "ett", "rftt"};
+        String [] arr = {"ri","xz","qxf","jhsguaw","dztqrbwbm","dhdqfb","jdv","fcgfsilnb","ooby"};
         AlienDictionary ad = new AlienDictionary();
         System.out.println(ad.alienOrder(arr));
 
