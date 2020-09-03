@@ -38,5 +38,86 @@ public class ParkingFloor {
         }
     }
 
+    public void assignVehicle(Vehicle vehicle, ParkingSpot spot){
+        spot.assignVehicle(vehicle);
+        switch(spot.getSpotType()){
+            case MotorBike:
+                updateMotorBoard(spot);
+                break;
+            case Compact:
+                updateCompactBoard(spot);
+                break;
+            case Large:
+                updateLargeBoard(spot);
+                break;
+            case Electric:
+                updateElectricBoard(spot);
+                break;
+            case Handicapped:
+                updateHandicappedBoard(spot);
+                break;
+            default: System.out.println("Wrong Parking spot");
+        }
+
+    }
+
+    private void updateElectricBoard(ParkingSpot spot) {
+        if(this.parkingDisplayBoard.getElectricFreeSpot().number== spot.getNumber()){
+            for(int key:electricSpotHashMap.keySet()){
+                if(electricSpotHashMap.get(key).available){
+                    parkingDisplayBoard.setElectricFreeSpot(electricSpotHashMap.get(key));
+                }
+            }
+            this.parkingDisplayBoard.ShowSpotNumber();
+        }
+    }
+
+    private void updateLargeBoard(ParkingSpot spot) {
+        if(this.parkingDisplayBoard.getLargeFreeSpot().number== spot.getNumber()){
+            for(int key:largeSpotHashMap.keySet()){
+                if(largeSpotHashMap.get(key).available){
+                    parkingDisplayBoard.setLargeFreeSpot(largeSpotHashMap.get(key));
+                }
+            }
+            this.parkingDisplayBoard.ShowSpotNumber();
+        }
+    }
+
+    private void updateCompactBoard(ParkingSpot spot) {
+        if(this.parkingDisplayBoard.getCompactFreeSpot().number== spot.getNumber()){
+            for(int key:compactSpotHashMap.keySet()){
+                if(compactSpotHashMap.get(key).available){
+                    parkingDisplayBoard.setCompactFreeSpot(compactSpotHashMap.get(key));
+                }
+            }
+            this.parkingDisplayBoard.ShowSpotNumber();
+        }
+    }
+
+    private void updateMotorBoard(ParkingSpot spot) {
+        if(this.parkingDisplayBoard.getMotorbikeFreeSpot().number== spot.getNumber()){
+            for(int key:motorBikeSpotHashMap.keySet()){
+                if(motorBikeSpotHashMap.get(key).available){
+                    parkingDisplayBoard.setMotorbikeFreeSpot(motorBikeSpotHashMap.get(key));
+                }
+            }
+            this.parkingDisplayBoard.ShowSpotNumber();
+        }
+    }
+
+    private void updateHandicappedBoard(ParkingSpot spot) {
+        if(this.parkingDisplayBoard.getHandicappedFreeSpot().number== spot.getNumber()){
+            for(int key:handicappedSpotHashMap.keySet()){
+                if(handicappedSpotHashMap.get(key).available){
+                    parkingDisplayBoard.setHandicappedFreeSpot(handicappedSpotHashMap.get(key));
+                }
+            }
+            this.parkingDisplayBoard.ShowSpotNumber();
+        }
+    }
+
+    public boolean isFull(){
+        return false;
+    }
 
 }

@@ -2,37 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be006c3-25f2-4dc0-8335-3978f3927446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/AccountStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/CompactSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Electric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ElectricSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/EntryPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ExitPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/HandicappedSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/LargeSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/MotorBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/MotorBikeSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingAttendant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingDisplayBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingTicketStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/SpotType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/FindNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingLot2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/G4G/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/G4G/Test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/JukeBox/JukeBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/JukeBox/JukeBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/JukeBox/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/JukeBox/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingDisplayBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingDisplayBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,22 +38,93 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingDisplayBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1689#1690#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2057#2058#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2211#2212#0" expanded="true" />
+                <element signature="e#2262#2263#0" expanded="true" />
+                <element signature="e#2302#2303#0" expanded="true" />
+                <element signature="e#2375#2376#0" expanded="true" />
+                <element signature="e#2428#2429#0" expanded="true" />
+                <element signature="e#2477#2478#0" expanded="true" />
+                <element signature="e#2516#2517#0" expanded="true" />
+                <element signature="e#2586#2587#0" expanded="true" />
+                <element signature="e#2637#2638#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFloor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#4413#4414#0" expanded="true" />
+                <element signature="e#4441#4442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingLot2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFloor.java">
+        <entry file="file://$PROJECT_DIR$/src/String/FindNull.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+            <state relative-caret-position="285">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFullException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingSpot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="675">
+              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding>
                 <element signature="e#197#198#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -117,6 +165,7 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -139,9 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BST/minSum.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/sumLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Test/TestParent.java" />
         <option value="$PROJECT_DIR$/src/Test/Altimetrik.java" />
         <option value="$PROJECT_DIR$/src/Test/Altimetriktest.java" />
         <option value="$PROJECT_DIR$/src/Test/c.java" />
@@ -170,13 +216,11 @@
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingTicketStatus.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Address.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Person.java" />
-        <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingSpot.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/MotorBikeSpot.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/LargeSpot.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ElectricSpot.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/HandicappedSpot.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/CompactSpot.java" />
-        <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Customer.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Car.java" />
@@ -188,8 +232,13 @@
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/EntryPanel.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Admin.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ExitPanel.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingSpot.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingDisplayBoard.java" />
         <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFloor.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFullException.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingLot2.java" />
+        <option value="$PROJECT_DIR$/src/String/FindNull.java" />
       </list>
     </option>
   </component>
@@ -221,20 +270,13 @@
               <item name="G4G" type="b2602c69:ProjectViewProjectNode" />
               <item name="G4G" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="G4G" type="b2602c69:ProjectViewProjectNode" />
               <item name="G4G" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SystemDesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="G4G" type="b2602c69:ProjectViewProjectNode" />
-              <item name="G4G" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="ParkingLot2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="G4G" type="b2602c69:ProjectViewProjectNode" />
@@ -420,7 +462,7 @@
       <workItem from="1598222720117" duration="5007000" />
       <workItem from="1598547640397" duration="6572000" />
       <workItem from="1598563818725" duration="1590000" />
-      <workItem from="1598894732622" duration="10246000" />
+      <workItem from="1598894732622" duration="13446000" />
     </task>
     <task id="LOCAL-00001" summary="SDE">
       <created>1581996335869</created>
@@ -465,7 +507,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299166000" />
+    <option name="totallyTimeSpent" value="302366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -480,7 +522,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3370508" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3370508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53493977" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,7 +530,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.32713756" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32771084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -960,34 +1002,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SystemDesign/SnakeAndLadder/DiceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemDesign/SnakeAndLadder/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemDesign/SnakeAndLadder/Ladder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemDesign/SnakeAndLadder/Snake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SystemDesign/SnakeAndLadder/SnakeAndLadderBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1338,13 +1352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1439,17 +1446,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingDisplayBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/SpotType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingSpot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="675">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
           <folding>
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -1473,21 +1480,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/SpotType.java">
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingDisplayBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2262#2263#0" expanded="true" />
+            <element signature="e#2302#2303#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2428#2429#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFloor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        <state relative-caret-position="623">
+          <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#4413#4414#0" expanded="true" />
+            <element signature="e#4441#4442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingFullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/FindNull.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemDesign/ParkingLot2/ParkingLot2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/String/FindNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

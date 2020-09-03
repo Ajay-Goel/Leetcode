@@ -41,5 +41,9 @@ public abstract class ParkingSpot {
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+    public boolean assignVehicle(Vehicle vehicle){
+        this.vehicle=vehicle;
+        return true;
+    }
 }
 

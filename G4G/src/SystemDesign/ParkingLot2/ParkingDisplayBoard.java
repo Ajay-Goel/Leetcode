@@ -40,7 +40,53 @@ public class ParkingDisplayBoard {
         else{
             System.out.println("ElectricFreeSpot spots not free");
         }
-
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public HandicappedSpot getHandicappedFreeSpot() {
+        return HandicappedFreeSpot;
+    }
+
+    public void setHandicappedFreeSpot(HandicappedSpot handicappedFreeSpot) {
+        HandicappedFreeSpot = handicappedFreeSpot;
+    }
+
+    public LargeSpot getLargeFreeSpot() {
+        return LargeFreeSpot;
+    }
+
+    public void setLargeFreeSpot(LargeSpot largeFreeSpot) {
+        LargeFreeSpot = largeFreeSpot;
+    }
+
+    public CompactSpot getCompactFreeSpot() {
+        return CompactFreeSpot;
+    }
+
+    public void setCompactFreeSpot(CompactSpot compactFreeSpot) {
+        CompactFreeSpot = compactFreeSpot;
+    }
+
+    public MotorBikeSpot getMotorbikeFreeSpot() {
+        return MotorbikeFreeSpot;
+    }
+
+    public void setMotorbikeFreeSpot(MotorBikeSpot motorbikeFreeSpot) {
+        MotorbikeFreeSpot = motorbikeFreeSpot;
+    }
+
+    public ElectricSpot getElectricFreeSpot() {
+        return ElectricFreeSpot;
+    }
+
+    public void setElectricFreeSpot(ElectricSpot electricFreeSpot) {
+        ElectricFreeSpot = electricFreeSpot;
+    }
 }
