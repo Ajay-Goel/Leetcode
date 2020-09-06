@@ -1,13 +1,22 @@
 package Test;
 
+import FileSearch.FileSearch;
 import Trie.WordDictionary;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.lang.reflect.Array;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.*;
 import java.util.stream.IntStream;
 
 public class Test extends TestParent {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        int b = 22;
 //        String a = String.valueOf(b);
 //        System.out.println(b);
@@ -94,16 +103,44 @@ public class Test extends TestParent {
 //        chars[0]= Character.highSurrogate(count);
 //        TreeSet<Integer> ts = new TreeSet<>();
 //
-        Test.print();
-        TestParent.print();
-        Test test = new Test();
-        test.printParent();
-        test.printParent();
-        int[] array = { 10, 20, 30 };
-        IntStream stream = Arrays.stream(array);
-        // ... Call anyMatch on the IntStream.
-        boolean result = stream.anyMatch(number -> number >= 25);
-        System.out.println(result);
+//        Test.print();
+//        TestParent.print();
+//        Test test = new Test();
+//        test.printParent();
+//        test.printParent();
+//        int[] array = { 10, 20, 30 };
+//        IntStream stream = Arrays.stream(array);
+//        // ... Call anyMatch on the IntStream.
+//        boolean result = stream.anyMatch(number -> number >= 25);
+//        System.out.println(result);
+
+//        File file = new File("/Users/ajaygoel/Documents/TA/config.txt");
+//        if(file.createNewFile()){
+//            System.out.println("File created");
+//        }
+//        else{
+//            System.out.println("Not created");
+//        }
+//
+//        File scnd = new File("/Users/ajaygoel/Documents"+file.getName());
+//
+//        FileInputStream fis = new FileInputStream(file);
+//        FileOutputStream fos = new FileOutputStream(scnd);
+//        int b;
+//        while((b=fis.read())!=-1){
+//            fos.write(b);
+//        }
+//        fis.close();
+//        fos.close();
+
+
+        File file = new File("/Users/ajaygoel/Documents/TA/config.txt");
+        Path p = file.toPath();
+        Path paths = Paths.get("/Users/ajaygoel/Documents/"+file.getName());
+        Files.copy(p,paths,StandardCopyOption.REPLACE_EXISTING);
+
+
+
     }
 
     static void print(){
