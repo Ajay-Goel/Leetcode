@@ -1,17 +1,19 @@
 package SystemDesign.SnakeGame2;
 
-public class Game {
-    static FoodInterface foodInterface;
+import java.util.Random;
+
+public class Game2 {
+    FoodInterface foodInterface;
     public static final int DIRECTION_NONE=0,DIRECTION_UP =1, DIRECTION_DOWN=-1, DIRECTION_RIGHT =1, DIRECTION_LEFT =-1;
     private Snake snake;
     private BoardInterface boardInterface;
     private int direction;
     private boolean gameOver;
 
-    public Game(Snake snake, BoardInterface bi) {
+    public Game2(Snake snake, BoardInterface bi) {
         this.snake = snake;
         this.boardInterface=bi;
-        //foodInterface=new FoodService();
+        foodInterface=new FoodService();
     }
 
     public void update(){
@@ -29,8 +31,13 @@ public class Game {
         snake.move(nextCell);
         if(nextCell.getCellType()==CellType.Food){
             snake.grow();
-            boardInterface.generateFood();
+            generateFood();
         }
+    }
+
+    private void generateFood() {
+        Cell cell = foodInterface.generateFood(boardInterface.getBoard().length, boardInterface.getBoard()[0].length);
+        boardInterface.generateFood(cell);
     }
 
     private Cell getNextCell(Cell head) {
@@ -43,15 +50,27 @@ public class Game {
             col--;
         }
         else if (direction == DIRECTION_UP) {
-            row--;
-        }
-        else if (direction == DIRECTION_DOWN) {
             row++;
         }
-        if(row>=boardInterface.getBoard().length || col>=boardInterface.getBoard()[0].length) {
-            random();
-            return getNextCell(head);
+        else if (direction == DIRECTION_DOWN) {
+            row--;
         }
+        while(row>=boardInterface.getBoard().length || col>=boardInterface.getBoard()[0].length || row<0 || col<0) {
+            //random();
+            //return getNextCell(head);
+            if(row>=boardInterface.getBoard().length)
+                row=row-1;
+            else if(row<0)
+                row=row+1;
+
+            if(col>=boardInterface.getBoard()[0].length)
+                col=col-1;
+            else if(col<0)
+                col=col+1;
+
+        }
+//        System.out.println(row);
+//        System.out.println(col);
         Cell nextCell = boardInterface.getBoard()[row][col];
         return nextCell;
     }
@@ -59,24 +78,30 @@ public class Game {
 
     public static void main(String [] args){
         Snake snake = new Snake(new Cell(0,0));
-        BoardInterface bi = new Board(20,20);
-        Game game = new Game(snake,bi);
+        BoardInterface bi = new Board(2000,2000);
+        Game2 game = new Game2(snake,bi);
         game.gameOver=false;
         game.direction=DIRECTION_RIGHT;
 
-        for(int i=0;i<20;i++){
+        for(int i=0;i<40000;i++){
             if(i%2==0)
-                game.boardInterface.generateFood();
+                game.generateFood();
             game.update();
             game.direction = game.random();
             if(game.gameOver)
+            {
+                System.out.println("~~~~GAME OVER~~~~");
                 break;
+            }
         }
     }
 
     private int random() {
-        int r = (int ) (Math.random() * 4);
-        if(r==0)
+        //int r = (int ) (Math.random() * 4);
+        Random rand = new Random();
+        int r = rand.nextInt(4)+1;
+        //System.out.println(r);
+        if(r==4)
             return DIRECTION_DOWN;
         else if(r==1)
             return DIRECTION_LEFT;
