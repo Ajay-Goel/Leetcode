@@ -2,6 +2,7 @@ package SystemDesign.VendingMachine;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
@@ -18,9 +19,15 @@ public class VendingMachine {
         this.loggingService = loggingService;
         this.mechanicalService = mechanicalService;
         this.paymentService = paymentService;
+        initVendingMachine();
     }
 
     private void initVendingMachine(){
+        itemsLocation = new ArrayList<>();
+        for(int i=0;i<10;i++){
+            Location l = new Location(i,i);
+            itemsLocation.add(l);
+        }
         itemsLocation = inventoryService.showItem();
         mechanicalService.displayAvailableItems(itemsLocation);
         selectedItem = null;
